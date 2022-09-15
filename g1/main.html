@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="main.css">
+  </head>
+
+<body>
+  <a href="index.html"><img class="back" src="back.png" alt=""></a>
+  <h1 id="Pl1">Player</h1>
+  <div class="group">
+    <div class="menu">
+      <h3 id="level-title">Press Any key to Start</h3>
+    </div>
+    <div class="container">
+      <table align="center">
+        <tr>
+          <td><div type="button" id="red" class="btn red"></td>
+          <td><div type="button" id="blue" class="btn blue"></td>
+        </tr>
+        <tr>
+          <td><div type="button" id="green" class="btn green"></td>
+          <td><div type="button" id="yellow" class="btn yellow"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="score">
+      <table cellspacing="20" cellpadding="15">
+        <tr>
+          <td>Name</td>
+          <td>Score</td>
+        </tr>
+        <tr>
+          <td id="N1">-</td>
+          <td id="S1">-</td>
+        </tr>
+        <tr>
+          <td id="N2"></td>
+          <td id="S2"></td>
+        </tr>
+        <tr>
+          <td id="N3"></td>
+          <td id="S3"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="main.js" charset="utf-8"></script>
+
+</body>
+
+</html>

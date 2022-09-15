@@ -1,0 +1,59 @@
+body {
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url("back.jpg");
+}
+
+.title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 5%;
+}
+
+.back{
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+
+.menu{
+  text-align: center;
+}
+
+.input-group{
+
+  max-width: 20%;
+  margin-top: 3%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.input1 .input2 {
+
+    border: 2px solid #48D1CC;
+    padding: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+.s_button{
+  margin-top: 4%;
+}
+
+#title {
+   font-family: Marquee Moon;
+   font-size: 120px;
+    font-variant-ligatures: no-common-ligatures;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 100%;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
