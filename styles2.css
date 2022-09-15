@@ -1,0 +1,132 @@
+  body {
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url("back.jpg");
+}
+
+.title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 5%;
+}
+
+.menu{
+  text-align: center;
+  height: 100%;
+  width: 20%;
+  padding-top: 100px;
+
+}
+
+.circle .cross{
+  height: 140px;
+  width: 140px;
+}
+
+.circleimg,.crossimg{
+    animation: fadeIn ease 0.5s;
+   width: 140px;
+   height: 140px;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.input1 .input2 {
+    border: 2px solid #48D1CC;
+    padding: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+.group{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.back{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+
+.menu {
+  margin-left: 2%;
+  height: 100%;
+  width: 20%
+}
+
+.game {
+  text-align: center;
+  margin-left: 2%;
+  height: 100%;
+  width: 40%;
+}
+
+.iimag{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  margin-left: 50px;
+
+}
+
+#grid_table{
+  background-repeat: no-repeat;
+ background-size: contain;
+  background-image: url("grid2.png");
+}
+
+.grid{
+  width: 150px;
+  height: 150px;
+  margin: 1px;
+
+}
+
+.grid:hover{
+  -webkit-box-shadow: -2px -1px 5px 3px #F3E6FA;
+  -moz-box-shadow: -3px -2px 10px 5px #F3E6FA;
+  box-shadow: -4px -3px 20px 10px #F3E6FA;
+}
+
+#T1{
+  padding: 0;
+}
+#T2{
+  padding: 0;
+}
+
+.score {
+   font-family: Marquee Moon;
+   font-size: 66px;
+    font-variant-ligatures: no-common-ligatures;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 100%;
+    color: white;
+    text-shadow: rgb(140, 89, 255) 0px 0px 20px, rgb(140, 89, 255) 0px 0px 40px;"
+  height: 100%;
+  width: 30%;
+}
+
+#title {
+   font-family: Marquee Moon;
+   font-size: 120px;
+    font-variant-ligatures: no-common-ligatures;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 100%;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
